@@ -1,0 +1,119 @@
+<html>
+
+<head>
+	<title>PROGRAMAS</title>
+
+	<meta charset="utf-8">
+
+	<SCRIPT>
+		alert("Esta pagina mostrara dialogos constantes");
+		
+		    function REG(){
+		    
+                nom = prompt("Nombre Completo");
+                document.getElementById("nomb").innerHTML =nom;
+                eda = prompt("Tu Edad");
+                edas = ("EDAD: " + eda);
+                document.getElementById("edad").innerHTML =edas;
+                es = prompt("Tu Estado Civil");
+                est = ("ESTÁ: " + es);
+                document.getElementById("esci").innerHTML =est;
+                hob = prompt("Cual es tu hobby?");
+                jobi = ("LE GUSTA: " + hob);
+                document.getElementById("hobb").innerHTML =jobi;
+                mo = prompt("Cual Es Pelicula Favorita? ");
+                vie = ("Pelicula Favorita: " + mo);
+                document.getElementById("peli").innerHTML =vie;
+                ca = prompt("Cual Es Tu Cancion Favorita? ");
+                cf = ("Cancion Favorita: " + ca);
+                document.getElementById("canc").innerHTML =cf;
+                
+            }
+                        		    
+		    
+	</SCRIPT>
+	
+<style>	
+	
+	
+		body{   margin:0px 128px;
+      			background-color:#DDFFFF;
+      			COLOR:#000000;
+      			FONT-FAMILY:quicksand;
+      			FONT-SIZE:20PX;
+      			padding:0px;}
+      		
+      		
+      		#di{	background-color: #c7f9fc;
+     			color: #000000;
+     			border: 1px solid #000000;
+     			margin: 0px;
+     			padding: 0px;}
+     			
+     			
+      		.div{background-color: #c7f9fc;
+     			color: #000000;
+     			border: 1px solid #000000;
+     			margin: 0px;
+     			padding: 0px;
+                text-align: justify;}
+     		
+     		
+     		
+     		h1 {	font-size:40;
+     			text-shadow: 1px 1px 1px BLUE;}
+     			
+     		
+      		 h3 {font-size:30;
+     			 text-shadow: 1px 1px 1px BLUE;}
+     			 
+            LEGEND{BORDER: 1px SOLID #000000;}
+      		
+	</style>	
+
+
+</head>
+
+
+<body>
+
+
+<CENTER>
+
+<h1 class="h1">REGISTRO</h1>
+    
+
+    <div id="di">
+
+
+        <H3>HAZ CLIC </H3>
+        
+            <button type="text" onclick="REG()">Empezar</button>
+
+        
+
+    </div>
+    
+    
+<br>
+
+
+    <FIELDSET class="div">
+    
+    <LEGEND><h1 id="nomb";> </h1></LEGEND>
+           
+            <P id="edad";></P>
+            <P id="esci";></P>
+            <P id="hobb";></P>
+            <P id="peli";></P>
+            <P id="canc";></P>
+
+    </FIELDSET>
+    
+    
+</CENTER>
+
+    
+</body>
+
+</html>
